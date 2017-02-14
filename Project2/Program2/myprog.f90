@@ -111,7 +111,7 @@ program secondprog
   allocate(E(nsize))
   E = bs - matmul(As,b)
   write(*,*)'error in solution is',norm2(E,nsize)
-  !compute rms error bewtween fitted curve and data points given by E²=sum(b(i)-f(x(i),bs))²
+  !compute rms error bewtween fitted curve and data points given by EÂ²=sum(b(i)-f(x(i),bs))Â²
   allocate(error(msize))
   err = 0.0
   open(20,file='fitted.dat')
@@ -136,7 +136,7 @@ program secondprog
      end do
   end do
   write(*,*) 'The matrix Q^T*Q - I is:'
-  !call writemat(matmul(transpose(Q),Q)-I_msize,msize,msize)
+  call writemat(matmul(transpose(Q),Q)-I_msize,msize,msize)
   write(*,*)'Frobenius norm of Q^T*Q - I =',normF(matmul(transpose(Q),Q)-I_msize,msize,msize)
   deallocate(A,As,Q,QT,R,b,I_msize,E)
 end program secondprog
