@@ -1,2 +1,0 @@
-# AMS213a
-Winter2017
