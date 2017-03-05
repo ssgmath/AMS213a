@@ -1,0 +1,16 @@
+Total Grade: 95/100
+
+Part 1: 40/40
+
+	Notes: Well done!
+
+Part 2: 40/40
+
+	Notes: Well done!
+
+Report: 15/20
+
+	Notes: Just one thing!
+	  1) You forgot to give a description of the Cholesky decomposition. -5 points.
+
+COMMENT: Creating H and then applying it to A is very time and space consuming .
