@@ -1,0 +1,28 @@
+Total Grade = 87/100
+
+Part 1 = 20/20
+
+	Notes: Well done!
+
+QR Algorithm description = 10/20
+
+	Notes:
+	1) You go through the steps of the QR algorithm, but you don't address
+	why A becomes the diagonal matrix of eigenvalues or why Q becomes the
+	matrix of eigenvectors. -10 points. 
+
+Part 2 = 20/20
+
+	Notes: Well done!
+
+Part 3 = 20/20
+
+	Notes: Well done!
+
+Report = 17/20
+
+	Notes: Good job!
+	1) You should use functions to describe the scale for compute time and
+	the dimension of the Lehmer matrix. -1.
+	2) You forgot to mention that LAPACK transforms A into its Hessenberg
+	form. -2 points.
