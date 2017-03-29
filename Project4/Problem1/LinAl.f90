@@ -92,7 +92,8 @@ contains
     filename = 'JacobierrD_'//trim(D_value)//'.dat'
     open(20,file=filename)
     do while(norm2(res,msize).gt.acc)
-       write(*,*)'at iteration#',iter
+       write(*,*)'at iteration#',iter, "Error is: ", norm2(b-matmul(A,x),msize)
+
        ! compute y = D^-1*(b-Rx)
        do i=1,msize  
           sum = 0.
@@ -139,7 +140,7 @@ contains
     filename = 'SeidelD_'//trim(D_value)//'.dat'
     open(20,file=filename)
     do while(norm2(res,msize).gt.acc)
-       write(*,*)'at iteration#',iter
+       write(*,*)'at iteration#',iter, "Error is: ", norm2(b-matmul(A,x),msize)
        
        ! compute x = D^-1*(b-Rx)
        do i=1,msize

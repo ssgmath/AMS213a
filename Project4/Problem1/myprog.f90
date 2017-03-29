@@ -7,7 +7,7 @@ program firstprog
   real,dimension(:),allocatable :: b
   integer :: msize, i, j, D ! size of the matrix A
   character*100 method ! method to use
-  real :: acc = 1d-6 ! user defined accuracy for solution of Ax = b
+  real :: acc = 1d-5 ! user defined accuracy for solution of Ax = b
   !**** input the method to use as argument(1/2) *****************
   if(iargc().ne.1) then
   write(*,*) 'Wrong number of arguments (need method to use)'

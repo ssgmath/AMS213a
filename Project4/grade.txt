@@ -1,0 +1,28 @@
+Total Grade = 100/100
+
+Part 1: 30/30
+
+	Notes: Well done!
+
+Part 2: 30/30
+
+	Notes: Well done!
+
+GS/GJ description: 5/5
+
+	Notes: Well done!
+
+CG description: 10/15
+
+	Notes: 
+	1) Your description of the CG algorithm is too vague. Constructing a basis
+	iteratively isn't unique to CG. You should mention gradient descent or
+	minimizing a quadratic polynomial as the motivating factor. -5 points.
+
+Report: 20/20
+
+	Notes:
+	1) You should break up the plot with all the GS and GJ information. 
+	It takes way too long too long to go back and forth and read your legend.
+
+Extra Credit: 5/5
